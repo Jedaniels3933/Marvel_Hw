@@ -1,0 +1,54 @@
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.app-container {
+  position: relative;
+
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+}
+
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  text-shadow: 0lvb 0lvb 10px black;
+
+
+}
+
+body {
+  background-color: yellow;
+  background-image: url('https://www.transparenttextures.com/patterns/brushed-aluminum.png');
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  
+}
+
